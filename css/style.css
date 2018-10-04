@@ -1,0 +1,99 @@
+/*
+   ___    __           __                _   
+  / __|  /_/   _ _    /_/   _ _   __ _  | |  
+ | (_ | / -_) | ' \  / -_) | '_| / _` | | |  
+  \___| \___| |_||_| \___| |_|   \__,_| |_|  
+                                             
+*/
+
+/* On s'assure que tous les éléments html soient border-box */
+html, *{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a{
+	color: inherit;
+	text-decoration: inherit;
+}
+
+section{
+	padding: 1% 7%;
+}
+
+/*REGROUPES*/
+nav, footer, h1{
+	background-color: darkblue;
+	color: white; 
+}
+
+/*
+  _  _                   _             
+ | || |  ___   __ _   __| |  ___   _ _ 
+ | __ | / -_) / _` | / _` | / -_) | '_|
+ |_||_| \___| \__,_| \__,_| \___| |_|  
+                                       
+*/
+nav a{
+	padding-left: 10%;
+}
+
+h1{
+	background: url(../img/background.jpg);
+	margin: 0 auto;
+	padding: 6%;
+	text-align: center;
+}
+
+/*
+  __  __          _        
+ |  \/  |  __ _  (_)  _ _  
+ | |\/| | / _` | | | | ' \ 
+ |_|  |_| \__,_| |_| |_||_|
+                           
+*/
+section:first-child{
+	background:gainsboro;
+}
+article{
+	display: inline-block;
+	padding: 1%;
+}
+article:nth-child(2) img{
+	width: 100%;
+}
+section:first-child article:first-child{
+	margin: 0 auto;
+	width: 30%;
+}
+
+section:first-child article:nth-child(2){
+	width: 67%;
+}
+
+/*DEUXIEME SECTION*/
+section:nth-child(2){
+	background:grey;
+}
+section:nth-child(2) *{
+	display: inline-block;
+}
+section:nth-child(2) article p{
+	width: 70%;
+}
+section:nth-child(2) img{
+	width: 20%;
+}
+
+
+/* 
+  ___               _               
+ | __|  ___   ___  | |_   ___   _ _ 
+ | _|  / _ \ / _ \ |  _| / -_) | '_|
+ |_|   \___/ \___/  \__| \___| |_|  
+                                    
+*/
+
+footer{
+	text-align: right;
+}
